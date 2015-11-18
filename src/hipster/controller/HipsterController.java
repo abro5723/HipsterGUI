@@ -15,7 +15,7 @@ public class HipsterController
 		firstHipster = new Hipster();
 		baseFrame = new HipsterFrame(this);
 	}
-	
+	 
 	public void start()
 	{
 		String myName = baseFrame.getResponse("What is your name?");
